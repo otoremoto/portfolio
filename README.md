@@ -1,2 +1,2 @@
 # portfolio
-portfolio web para la búsqueda de trabajo
+portfolio web de otorremoto para la búsqueda de trabajo
