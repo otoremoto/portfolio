@@ -1,0 +1,1 @@
+var activeFilter="";function filterProject(e){activeFilter!=e&&($(".project").filter("."+e).show(),$(".project").filter(":not(."+e+")").hide(),$("button").filter(":not(#"+e+")").removeClass("active"),$("#"+e).addClass("active"),$("#work hr").removeClass("d-none"),$("#work ."+e+" hr").last().addClass("d-none"),activeFilter=e)}

@@ -1,0 +1,71 @@
+/* Tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+.fira{
+	font-family: 'Fira Sans', sans-serif;
+}
+/*Background bubble*/
+.bk-bubble-green{
+	padding-top: 40vh;
+	background-image: url('../img/productvideo/bubble-green.png');
+	background-size:auto 180vh;
+	background-repeat: no-repeat;
+	
+}
+.bk-bubble-blue{
+	padding-top: 20vh;
+	background-image: url('../img/productvideo/bubble-blue.png');
+	background-size:auto 160vh;
+	background-position: top right;
+	background-repeat: no-repeat;
+	
+}
+/* Paleta Guía*/
+.shape-solid{
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+}
+
+/* Colores guia */
+.bg-hp-green{background-color: #7ed321;}
+.bg-hp-green-light{background-color: #b5ed5d;}
+.bg-hp-blue{background-color: #082286;}
+.bg-hp-blue-light{background-color: #3fa6f2;}
+.bg-hp-orange{background-color: #ef7700;}
+.bg-hp-orange-light{background-color: #f7de20;}
+.bg-hp-gray{background-color: #3b3735;}
+.bg-hp-light{background-color: #F7F9F4}
+
+.hp-degree-green{	background: linear-gradient(303.75deg, #ABECD6 -31.28%, #FBED96 151.67%);}
+.hp-degree-pink{	background: linear-gradient(77.88deg, #F0A8BE -16.01%, #FAE2BE 109.74%);}
+
+.color-hp-green{color: #7ED321;}
+.color-hp-gray{color: #3b3735;}
+.faldon{height:3.8vw; position:absolute; margin-top:-63vw; width: 100%; background-color:white;}
+@media (max-width: 576px) { 
+	.shape-solid{
+		width: 70px;
+		height: 70px;
+		border-radius: 35px;
+	}
+	/*Background bubble*/
+	.bk-bubble-green{
+		padding-top: 10vh;
+		background-size:auto 160vh;	
+		background-position: -200px 0;
+		
+	}
+	.bk-bubble-blue{
+		padding-top: 10vh;
+		background-size:auto 140vh;
+		background-position: -200px 0;
+	
+		
+	}
+	.rrss-mobile{
+	
+		background-color: #3b37354a;
+	}
+	.faldon{display:none}
+}
