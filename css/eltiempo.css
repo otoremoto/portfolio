@@ -1,3 +1,4 @@
+@import url('colors.css');
 /* Tipografías */
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
@@ -20,7 +21,21 @@
 	border-radius: 35px;
 }
 
+
 /* Colores guia el tiempo */
+
+.bk-light-blue-degree{
+background: linear-gradient(109.73deg, #fff 12.1%, #E6EFF2 115.62%);
+}
+.bk-blue-100{
+background: #0043EF;
+}
+.bk-blue-10{
+background: rgba(0,67,239,.1);
+}
+.bk-blue-degree{
+background: linear-gradient(110deg, #0043EF -3%, #033DD2 98%);
+}
 .elTiempo-solid-blue{	background: #0043EF;}
 .elTiempo-solid-orange{	background: #EFB700;}
 .elTiempo-solid-dark{	background: #0F1C26;}

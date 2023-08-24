@@ -1,8 +1,11 @@
+@import url('colors.css');
+
+
 body{
 
-	margin:0:
+	margin:0;
 	padding:0;
-	background-color: #f4eae1;
+	background-color: var(--bk-beige);
 
 }
 
@@ -13,6 +16,29 @@ body{
 	min-height:100%;
 	z-index: 9999999;
 
+}
+/*color*/
+.text-white, a.text-white{
+	color:var(--white);
+	text-decoration:none;
+}
+.gray-50, a.gray-50{
+	color:var(--grey-50);
+	text-decoration:none;
+}
+.gray-80{
+	color:var(--grey-80);
+}
+
+
+.pink-50,a.pink-50{
+	color:var(--primary);
+}
+.blue-100, a.blue-100{
+	color:#0043EF;
+}
+.blue-30{
+	color: rgba(0,67,239,.3);
 }
 /*IFRAME*/
 iframe{
@@ -25,35 +51,9 @@ iframe{
 }
 /*badge*/
 .badge-primary{
-	background-color:#e76464;
+	background-color:var(--primary);
 }
-/*color*/
-.text-white, a.text-white{
-	color:#ffffff;
-	text-decoration:none;
-}
-.gray-50, a.gray-50{
-	color:#484745;
-	text-decoration:none;
-}
-.gray-80{
-	color:#370909;
-}
-.gray-10{
-	color:rgba(0,0,0,.1);
-}
-.light-10{
-	color:#fce6e6;
-}
-.pink-50,a.pink-50{
-	color:#e76464;
-}
-.blue-100, a.blue-100{
-	color:#0043EF;
-}
-.blue-30{
-	color: rgba(0,67,239,.3);
-}
+
 .nav-menu a.nav-link{
 	background-image: linear-gradient(currentColor, currentColor);
 	background-position: 0% 100%;
@@ -74,40 +74,25 @@ iframe{
 
 
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: #484745;
+    color: var(--white);
+    background-color: var(--grey-50);
 }
 
 
 .bk-white{
-	background-color: #fff;
+	background-color: var(--white);
 }
 .bk-crudo{
-	background-color: #f9f2ec;
-}
-.bk-pink-10{
-	background-color: #f4eae1;
-}
-.bk-gray-50{
-	background-color:#484745;
-}
-.bk-pink-50{
-	background-color:#e76464;
+	background-color: var(--bk-beige);
 }
 .bk-light{
-		background-color:rgba(255,255,255,.5);
+	background-color:var(--light);
 }
-.bk-light-blue-degree{
-	background: linear-gradient(109.73deg, #FFFFFF 12.1%, #E6EFF2 115.62%);
+.bk-gray-50{
+	background-color: var(--grey-50);
 }
-.bk-blue-100{
-	background: #0043EF;
-}
-.bk-blue-10{
-	background: rgba(0,67,239,.1);
-}
-.bk-blue-degree{
-	background: linear-gradient(110deg, #0043EF -3%, #033DD2 98%);
+.bk-pink-50{
+	background-color:var(--primary);
 }
 
 

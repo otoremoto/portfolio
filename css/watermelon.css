@@ -1,3 +1,4 @@
+@import url(colors.css);
 /* Tipografías */
 @font-face {
   font-family: 'Bromello-Regular';
@@ -20,14 +21,14 @@
 }
 
 /* Colores guia */
-.bg-wm-red{background-color: #e01350;}
-.bg-wm-cyan{background-color: #009b97;}
+.bg-wm-red{background-color: var(--wm-red);}
+.bg-wm-cyan{background-color: var(--wm-cyan);}
 
 
-.wm-degree-red{	background: linear-gradient(136.13deg, #ff1563 15.89%, #e01350 99.14%);}
+.wm-degree-red{	background: linear-gradient(136.13deg, #ff1563 15.89%, var(--wm-red); 99.14%);}
 
-.color-wm-red{color: #e01350;}
-.color-wm-gray{color: #333;}
+.color-wm-red{color: var(--wm-red);}
+.color-wm-gray{color: var(--wm-gray);}
 @media (max-width: 576px) { 
 	.shape-solid{
 		width: 70px;
