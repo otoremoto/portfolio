@@ -1,3 +1,5 @@
+@import url('colors.css');
+@import url('eltiempo.min.css');
 /* Tipografías */
 @font-face {
   font-family: 'SF-Pro-Display-Regular';
@@ -31,17 +33,17 @@
 }
 
 /* Colores guia*/
-.cM-solid-cyan{	color: #01D0FE;}
-.cM-solid-pink, a.cM-solid-pink{	color: #FB2E56; text-decoration: none;}
+.cM-solid-cyan{	color: var(--cm-cyan);}
+.cM-solid-pink, a.cM-solid-pink{	color: var(--cm-pink); text-decoration: none;}
 .cM-solid-pink-30{	color: rgba(251,46,86,.3);}
-.cM-solid-dark{	color: #0E1C21;}
-.concertMapp-solid-cyan{	background: #01D0FE;}
-.concertMapp-solid-pink{	background: #FB2E56;}
+.cM-solid-dark{	color: var(--cm-dark);}
+.concertMapp-solid-cyan{	background: var(--cm-cyan);}
+.concertMapp-solid-pink{	background: var(--cm-pink);}
 .concertMapp-solid-pink-10{	background: rgba(251,46,86,.1);}
-.concertMapp-solid-dark{	background: #0E1C21;}
+.concertMapp-solid-dark{	background:var(--cm-dark);}
 .concertMapp-degree-cyan{	background: linear-gradient(90deg, #32D3FF 14.87%, #09B6B6 100.05%);}
 .concertMapp-degree-pink{	background: linear-gradient(136.13deg, #FD6559 15.89%, #FB2E56 99.14%);}
-.concertMapp-degree-dark{	background: linear-gradient(166.36deg, #21404B -9.47%, #0E1C21 115.48%);}
+.concertMapp-degree-dark{	background: linear-gradient(166.36deg, #21404B -9.47%, var(--cm-dark) 115.48%);}
 @media (max-width: 576px) { 
 	.shape-solid{
 		width: 33%;

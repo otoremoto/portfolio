@@ -1,0 +1,30 @@
+:root {
+	/*colors main*/
+	--primary: #e76464;
+	--bk-beige: #f9f2ec;
+	--white: #fff;
+	--light: rgba(255,255,255,.5);
+	--grey-10:rgba(0,0,0,.1);
+	--grey-50: #484745;
+	--grey-80: #370909;
+    /*colors projects*/
+    /*concert mapp*/
+    --cm-cyan: #01D0FE;
+    --cm-pink: #FB2E56;
+    --cm-dark: #0E1C21;
+    /*helpup*/
+    --hp-green: #7ed321;
+    --hp-green-light: #b5ed5d;
+    --hp-blue: #082286;
+    --hp-blue-light: #3fa6f2;
+    --hp-orange: #ef7700;
+    --hp-orange-light: #f7de20;
+    --hp-gray: #3b3735;
+    --hp-light: #F7F9F4;
+    /*water melon*/
+    --wm-red: #e01350;
+    --wm-cyan: #009b97;
+    --wm-gray: #333;
+
+	
+}
